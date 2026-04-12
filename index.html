@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   gtag('config', 'G-XXXXXXX');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZivaTech</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e1b4b);
+      color: #e5e7eb;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      animation: fadeIn 2s ease;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #a5b4fc;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #c7d2fe;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #22c55e;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 25px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #a5b4fc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.3);
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);} 
+      to {opacity: 1; transform: translateY(0);} 
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ZivaTech 💻</h1>
+  <p>Understanding tech, one step at a time 🌙</p>
+</header>
+
+<nav>
+  <a href="#journey">Journey</a>
+  <a href="#basics">Ziva Basics</a>
+  <a href="#tools">Tools</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="journey">
+  <div class="card">
+    <h2>My Tech Journey</h2>
+    <p>Day 1: What is coding?</p>
+    <p>I started learning what coding actually means and how websites are built.</p>
+  </div>
+
+  <div class="card">
+    <h2>Learning Moment</h2>
+    <p>I tried HTML for the first time… and it was confusing but exciting.</p>
+  </div>
+</section>
+
+<section id="basics">
+  <div class="card">
+    <h2>Ziva Basics</h2>
+    <p>What is coding? It is how we give instructions to computers.</p>
+  </div>
+</section>
+
+<section id="tools">
+  <div class="card">
+    <h2>Ziva Tools</h2>
+    <p>Free tools I use to learn tech:</p>
+    <ul>
+      <li>W3Schools</li>
+      <li>FreeCodeCamp</li>
+      <li>YouTube tutorials</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card">
+    <h2>Contact</h2>
+  </div>
+</section>
+
+<footer>
+  <p>Built with curiosity 💻 | ZivaTech © 2026</p>
+</footer>
+
+</body>
+</html>
